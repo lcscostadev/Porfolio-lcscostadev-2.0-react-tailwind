@@ -1,15 +1,18 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Prompt } from './components';
+import { Navbar, Prompt, Hero } from './components';
 
 
 function App() {
 
   return (
     <>
-      <div className='bg-[#1F1F23] font-spaceMono h-[100vh]'>
+      <div className='font-spaceMono'>
         <Navbar />
-        <Prompt />
+        <Hero />
+        <Prompt className="h-[100vh]" />
+        <Prompt className="h-[100vh]" />
+        <Prompt className="h-[100vh]" />
       </div>
     </>
   )
