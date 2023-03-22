@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='font-spaceMono'>
+      <div className='font-spaceMono bg-[#1F1F23]'>
         <Navbar />
         <Hero />
         <Prompt className="h-[100vh]" />
