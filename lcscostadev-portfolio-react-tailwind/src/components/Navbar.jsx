@@ -16,7 +16,7 @@ const Navbar = () => {
                             <span className='text-[#00ff7f]'>
                                 {`${toRumanNumeral(index + 1)}.`}
                             </span>
-                            <a href={`#${nav.id}`} className="text-white ">
+                            <a href={`#${nav.id}`} className="text-white hover:text-[#00ff7f] transition ease-in-out duration-500">
                                 {nav.title}
                             </a>
                         </li>

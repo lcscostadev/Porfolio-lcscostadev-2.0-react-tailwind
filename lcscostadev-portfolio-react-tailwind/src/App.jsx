@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Navbar, Prompt, Hero } from './components';
+import { Navbar, Prompt, Hero, About } from './components';
 
 
 function App() {
@@ -10,9 +10,8 @@ function App() {
       <div className='font-spaceMono bg-[#1F1F23]'>
         <Navbar />
         <Hero />
-        <Prompt className="h-[100vh]" />
-        <Prompt className="h-[100vh]" />
-        <Prompt className="h-[100vh]" />
+        <About />
+        <Prompt />
       </div>
     </>
   )

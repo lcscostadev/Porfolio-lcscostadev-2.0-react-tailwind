@@ -17,8 +17,8 @@ const Hero = () => {
                     {/* make appear letter by letter */}
                     <div className='text-[#00ff7f]'>Hello, World!</div>
                 </div>
-                <div className='flex gap-3 flex-col'>
-                    <h1 className='text-7xl'>Hi🖖🏻, Im Lucas! </h1>
+                <div className='flex gap-3 flex-col '>
+                    <h1 className='text-6xl font-SourceSansPro font-bold md:text-7xl lg:text-8xl'>Hi🖖🏻, Im Lucas! </h1>
                     <h3 className='text-2xl'>Im a <span className='text-[#00ff7f] underline'>Full-Stack MERN Developer</span>.</h3>
                     <p className='max-w-[680px]'>Im 23 years old and im a Computer Science student, I recognize myself as an enthusiast in current market technologies, always looking to learn and be better, I see my evolution daily.</p>
                     <div className='flex'>
