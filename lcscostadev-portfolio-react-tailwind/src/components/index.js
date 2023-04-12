@@ -8,6 +8,7 @@ import About from './About.jsx';
 import ScrollHandler from '../utils/ScrollHandler.jsx';
 import Button from '../utils/Button.jsx';
 import Logo from '../utils/Logo.jsx';
+import Desc from '../utils/Desc.jsx';
 
 
 export {
@@ -20,4 +21,5 @@ export {
     MobileNavbar,
     Button,
     ScrollHandler,
+    Desc,
 }

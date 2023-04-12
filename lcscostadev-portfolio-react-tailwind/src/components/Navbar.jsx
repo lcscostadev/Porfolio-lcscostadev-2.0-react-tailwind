@@ -1,5 +1,5 @@
 import React from 'react';
-import { toRumanNumeral } from '../utils/ToRomanNumeral';
+import { toRomanNumeral } from '../utils/toRomanNumeral';
 import { Logo, Button, ScrollHandler, MobileNavbar } from './index';
 import { LogoImg } from '../assets';
 import { navLinks } from '../constants/index';
@@ -14,7 +14,7 @@ const Navbar = () => {
                     {navLinks.map((nav, index) => (
                         <li key={index} className="list-none">
                             <span className='text-[#00ff7f]'>
-                                {`${toRumanNumeral(index + 1)}.`}
+                                {`${toRomanNumeral(index + 1)}.`}
                             </span>
                             <a href={`#${nav.id}`} className="text-white hover:text-[#00ff7f] transition ease-in-out duration-500">
                                 {nav.title}

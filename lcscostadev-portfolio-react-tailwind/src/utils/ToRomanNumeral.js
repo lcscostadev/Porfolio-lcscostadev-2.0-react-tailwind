@@ -1,4 +1,4 @@
-export const toRumanNumeral = (num) => {
+export const toRomanNumeral = (num) => {
     const romanNumeralMap = [
         { value: 10, symbol: 'X' },
         { value: 9, symbol: 'IX' },
