@@ -1,5 +1,6 @@
-colors:
+This is a working project to make my portfólio with more clean code using S.O.L.I.D, ReactJS and Tailwind CSS, it is a good way to practice my code and also make some changes and add new features to my portfólio.
 
+colors:
 
 <!-- Light Theme -->
 white: #f8f9fa
